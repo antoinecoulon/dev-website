@@ -146,6 +146,14 @@ body {
 }
 .projects-container p {
     color: var(--blue-bg-color);
+    max-width: 180px;
+    text-align: center;
+}
+.project-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: center;
 }
 .project {
     background-color: transparent;
