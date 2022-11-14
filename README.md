@@ -11,3 +11,8 @@ The website will be displayed in french for the moment, I'll try to translate it
 This project is part of the Foundations course by The Odin Project.
 
 Antoine
+
+Thoughts after completing this projects (the TOP assignement part at least): 
+- I had 'padding' to each section to avoid space between those, but it makes more difficult to get proportional heights for example. I have to find an other way to do that. 
+- I'd love to add some animations effects, I'll go back on this later.
+- I love this color palette but I think it's not the best for someone's eyes... Maybe I could rearrange all of it.
