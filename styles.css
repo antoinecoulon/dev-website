@@ -118,3 +118,39 @@ body {
     border-radius: 20px;
     box-shadow: 3px 2px var(--orange-light);
 }
+
+/* SECTION PROJETS */
+.projects {
+    height: 400px;
+    padding: 50px 0;
+    background-color: var(--blue-light);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.projects-title {
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    color: var(--blue-bg-color);
+    margin-top: 50px;
+}
+
+.projects-container {
+    width: 70%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.projects-container p {
+    color: var(--blue-bg-color);
+}
+.project {
+    background-color: transparent;
+    width: 180px;
+    height: 180px;
+    border: 3px solid var(--orange-medium);
+    border-radius: 10px;
+}
