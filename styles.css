@@ -162,3 +162,35 @@ body {
     border: 3px solid var(--orange-medium);
     border-radius: 10px;
 }
+
+/* SECTION ABOUT +QUOTE */
+.quote {
+    height: 300px;
+    padding: 50px 0;
+    background-color: var(--orange-light);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.quote h2 {
+    font-size: 24px;
+    font-weight: 900;
+    text-align: center;
+    color: var(--blue-bg-color);
+    margin-top: 50px;
+}
+.quote-text {
+    text-align: justify;
+    max-width: 60%;
+    margin: 0 auto;
+    font-size: 1.3em;
+    line-height: 1.4em;
+    font-style: italic;
+    color: var(--blue-bg-color);
+}
+.author {
+    text-align: center;
+    margin-left: 800px;
+    color: var(--blue-light);
+    font-weight: 900;
+}
