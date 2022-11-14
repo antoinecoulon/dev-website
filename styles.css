@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Sono&display=swap');
 
+:root {
+    --blue-bg-color: #264653;
+    --blue-light: #2A9D8F;
+    --orange-light: #E9C46A;
+    --orange-medium: #F4A261;
+    --orange-dark: #E76F51;
+}
+
 body {
     width: 100%;
     margin: 0;
@@ -8,13 +16,14 @@ body {
     font-size: 14px;
 }
 
-/* HEADER LOGO + NAV */
+
 .header-container {
     width: 100%;
-    height: 500px;
+    height: 600px;
     background-color: #264653;
     padding: 20px;
 }
+/* HEADER LOGO + NAV */
 
 .nav-container {
     width: 70%;
@@ -47,4 +56,65 @@ body {
 .nav-list li {
     color: #E9C46A;
     margin-right: 30px;
+    font-size: 18px;
+}
+
+/* HEADER PRESENTATION */
+.sub-header {
+    width: 70%;
+    margin: 70px auto;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-text {
+    width: 45%;
+    color: var(--orange-medium);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+.header-text h2 {
+    font-size: 1.3em;
+    margin-left: 10px;
+}
+.header-text p {
+    font-size: 1.1em;
+    text-align: justify;
+    line-height: 1.4em;
+}
+
+.description-button input {
+    background: var(--orange-medium);
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5px;
+    color: var(--blue-bg-color);
+    font-family: 'Sono', sans-serif;
+    font-size: 1.1em;
+    font-weight: 800;
+}
+.description-button input:hover{
+    background: var(--blue-light);
+    cursor: pointer;
+}
+
+.header-image {
+    width: 45%;
+    padding: 30px;
+
+}
+.header-image img {
+    max-height: 300px;
+    object-fit: cover;
+}
+.cv-image {
+    width: 100%;
+    border: 2px solid #E76F51;
+    border-radius: 20px;
+    box-shadow: 3px 2px var(--orange-light);
 }
