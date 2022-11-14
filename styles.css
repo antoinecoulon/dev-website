@@ -237,3 +237,17 @@ body {
 }
 
 /* FOOTER */
+footer {
+    height: 100px;
+    width: 100%;
+    background-color: var(--blue-bg-color);
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer div p {
+    font-size: 1.2em;
+    font-weight: 900;
+    color: var(--blue-light);
+}
