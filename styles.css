@@ -145,7 +145,7 @@ body {
     justify-content: space-evenly;
 }
 .projects-container p {
-    color: var(--blue-bg-color);
+    color: var(--orange-light);
     max-width: 180px;
     text-align: center;
 }
@@ -159,7 +159,7 @@ body {
     background-color: transparent;
     width: 180px;
     height: 180px;
-    border: 3px solid var(--orange-medium);
+    border: 3px solid var(--orange-light);
     border-radius: 10px;
 }
 
@@ -186,11 +186,54 @@ body {
     font-size: 1.3em;
     line-height: 1.4em;
     font-style: italic;
-    color: var(--blue-bg-color);
+    color: var(--orange-dark);
 }
 .author {
     text-align: center;
     margin-left: 800px;
-    color: var(--blue-light);
+    color: var(--blue-bg-color);
     font-weight: 900;
 }
+
+/* SECTION SIGN UP */
+.signup {
+    height: 300px;
+    padding: 50px 0;
+    background-color: var(--blue-light);
+}
+.signup-container {
+    width: 60%;
+    height: 150px;
+    background-color: var(--orange-medium);
+    margin: 50px auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signup-text {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
+.first-text {
+    color: var(--blue-bg-color);
+    font-size: 1.3em;
+    font-weight: 900;
+    margin-bottom: -15px;
+}
+.subtext {
+    color: var(--blue-bg-color);
+}
+.signup-text input {
+    height: 50px;
+    font-size: 1.2em;
+    padding: 10px 30px;
+    background-color: transparent;
+    border: 2px solid var(--blue-bg-color);
+    border-radius: 10px;
+    color: var(--blue-bg-color);
+    font-weight: 900;
+}
+
+/* FOOTER */
