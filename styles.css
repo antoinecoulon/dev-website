@@ -151,7 +151,8 @@ body {
     justify-content: space-evenly;
 }
 .projects-container p {
-    color: var(--orange-light);
+    color: var(--blue-bg-color);
+    font-weight: 500;
     max-width: 180px;
     text-align: center;
 }
@@ -162,21 +163,27 @@ body {
     align-items: center;
 }
 .project {
-    background-color: transparent;
+    
     width: 180px;
     height: 180px;
     border: 3px solid var(--orange-light);
     border-radius: 10px;
 }
 
+.project1 {
+    background: url(./images/dev-website_mini.png) no-repeat;
+    background-size: cover;
+}
+
 /* SECTION ABOUT +QUOTE */
 .quote {
     height: 300px;
     padding: 50px 0;
-    background-color: var(--orange-light);
+    background-color: var(--blue-light);
     display: flex;
     flex-direction: column;
     justify-content: center;
+    border-top: 1px solid var(--orange-light)
 }
 .quote h2 {
     font-size: 24px;
@@ -192,7 +199,7 @@ body {
     font-size: 1.3em;
     line-height: 1.4em;
     font-style: italic;
-    color: var(--orange-dark);
+    color: var(--orange-light);
 }
 .author {
     text-align: center;
